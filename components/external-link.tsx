@@ -11,6 +11,10 @@ const Link = styled.a`
   span {
     text-decoration: underline;
   }
+
+  svg {
+    width: 1rem;
+  }
 `;
 
 interface ExternalLinkProps {

@@ -37,6 +37,10 @@ const SocialNetworks = styled.section`
   a {
     color: ${(props) => props.theme.pink};
   }
+
+  svg {
+    width: 3rem;
+  }
 `;
 
 function Bio() {

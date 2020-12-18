@@ -21,6 +21,10 @@ const Heading = styled.h2`
   line-height: 1.125;
   margin-bottom: 1em;
   margin-top: 0;
+
+  svg {
+    width: 1.75rem;
+  }
 `;
 
 const TimeSpan = styled.span`
@@ -120,6 +124,17 @@ function Experience() {
           </Description>
           <ProjectLink href="https://covid19-ecuador.com/">
             <ProjectImage src="/imgs/covid19.png" alt="Covid-19 - Ecuador" />
+          </ProjectLink>
+        </article>
+        <article aria-labelledby="landrys">
+          <ProjectName id="landrys">Landry's Inc (2020)</ProjectName>
+          <Description>
+            Landry's, Inc. owns and operates more than 600 restaurants, hotels,
+            casinos and entertainment destinations in 35 states and the District
+            of Columbia.
+          </Description>
+          <ProjectLink href="https://www.landrysinc.com/">
+            <ProjectImage src="/imgs/landrys.png" alt="Landry's" />
           </ProjectLink>
         </article>
       </Section>
